@@ -96,8 +96,8 @@ We welcome contributions to improve TimCV! To contribute:
 
 ### **📧 Contact**
 For inquiries or feedback, please connect through:
-- **LinkedIn**: [Your LinkedIn Profile](#)
-- **Telegram**: [Your Telegram Profile](#)
+- **LinkedIn**: [My LinkedIn Profile](#)
+- **Telegram**: [My Telegram Profile](#)
 
 ---
 
