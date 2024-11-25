@@ -107,4 +107,3 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ---
 
 🌟 **TimCV: Showcase your professional journey with style and impact!**
-``` 
