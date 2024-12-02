@@ -15,6 +15,24 @@ export default function Projects() {
       description: 'Corporate website design showcasing services and innovations in the tech industry.',
       image: 'https://i.imgur.com/Pr2LNwO.png',
       link: 'https://www.behance.net/gallery/206299485/InnovateXSolutions-Prototype-Website'
+    },
+    {
+      title: 'Family Pie Restaurant',
+      description: 'A modern restaurant website for a Saudi Arabian establishment, featuring an elegant design and seamless ordering experience.',
+      image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1200&auto=format&fit=crop',
+      link: 'https://family-pie-restaurant.vercel.app'
+    },
+    {
+      title: 'EcoSense',
+      description: 'Environmental monitoring platform with real-time data visualization and analytics.',
+      image: 'https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?q=80&w=1200&auto=format&fit=crop',
+      link: 'https://family-pie-restaurant.vercel.app/#home'
+    },
+    {
+      title: 'EcoSense Data',
+      description: 'Advanced data analytics dashboard for environmental metrics and sustainability tracking.',
+      image: 'https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?q=80&w=1200&auto=format&fit=crop',
+      link: 'https://eco-sense-data-site.vercel.app/'
     }
   ];
 
@@ -29,7 +47,7 @@ export default function Projects() {
       >
         <h2 className="text-3xl font-bold mb-12 text-center">Featured Projects</h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <motion.div
               key={index}
@@ -39,7 +57,7 @@ export default function Projects() {
               transition={{ duration: 0.5, delay: index * 0.2 }}
               className="group relative overflow-hidden rounded-lg shadow-lg bg-white dark:bg-gray-800"
             >
-              <div className="relative h-64 overflow-hidden">
+              <div className="relative h-48 overflow-hidden">
                 <img
                   src={project.image}
                   alt={project.title}
