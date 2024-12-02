@@ -26,7 +26,7 @@ export default function Projects() {
       title: 'EcoSense',
       description: 'Environmental monitoring platform with real-time data visualization and analytics.',
       image: 'https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?q=80&w=1200&auto=format&fit=crop',
-      link: 'https://family-pie-restaurant.vercel.app/#home'
+      link: 'https://eco-sense-site.vercel.app/'
     },
     {
       title: 'EcoSense Data',
